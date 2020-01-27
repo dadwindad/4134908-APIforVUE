@@ -1,4 +1,4 @@
-### DATABASE is "testdb"
+### 1. DATABASE is "testdb"
 ```
 --
 -- Table structure for table `tbl_users`
@@ -23,14 +23,14 @@ ALTER TABLE `tbl_users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ```
 
-### Copy all file and folder to "scr"
+### 2. Copy all file and folder to "scr"
 
-### Package
+### 3. Package
 ```
 npm i express @hapi/joi mysql -s
 ```
 
-### Run API
+### 4. Run API
 ```
 node api.js
 ```
