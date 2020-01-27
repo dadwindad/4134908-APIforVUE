@@ -1,3 +1,7 @@
+```
+This project not have package.json , use for VUE project
+```
+
 ### 1. DATABASE is "testdb"
 ```
 --
@@ -25,9 +29,10 @@ ALTER TABLE `tbl_users`
 
 ### 2. Copy all file and folder to "scr"
 
-### 3. Package
+### 3. Install Package
+goto project folder and type
 ```
-npm i express @hapi/joi mysql -s
+> npm i express @hapi/joi mysql -s
 ```
 
 ### 4. Run API
