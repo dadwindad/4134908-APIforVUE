@@ -23,6 +23,8 @@ ALTER TABLE `tbl_users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ```
 
+### Copy all file and folder to "scr"
+
 ### Package
 ```
 npm i express @hapi/joi mysql -s
