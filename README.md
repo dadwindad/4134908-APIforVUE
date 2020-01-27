@@ -24,9 +24,11 @@ ALTER TABLE `tbl_users`
 ```
 
 ### Package
+```
 npm i express @hapi/joi mysql -s
+```
 
-### RUN API
+### Run API
 ```
 node api.js
 ```
