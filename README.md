@@ -27,7 +27,7 @@ ALTER TABLE `tbl_users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ```
 
-### 2. Copy all file and folder to "scr"
+### 2. Copy all file and folder to "src"
 
 ### 3. Install Package
 goto project folder and type
