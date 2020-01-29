@@ -38,7 +38,7 @@ ALTER TABLE `tbl_users`
 ### 3. Install Package
 goto project folder and type
 ```
-> npm i express @hapi/joi mysql -s
+> npm i mysql -s
 ```
 
 ### 4. Run API
