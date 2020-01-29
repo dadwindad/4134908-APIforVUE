@@ -29,10 +29,10 @@ ALTER TABLE `tbl_users`
 
 ### 2. Copy all file and folder to "scr"
 
-### 3. Install Package
-goto project folder and type
+### 3. Install Package by UI
 ```
-> npm i express @hapi/joi mysql -s
+mysql
+cors
 ```
 
 ### 4. Run API
