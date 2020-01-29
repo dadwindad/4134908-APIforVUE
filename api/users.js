@@ -29,8 +29,7 @@ router.route('/users?')
                 "status": 500,
                 "message": "Internal Server Error" // error.sqlMessage
             })
-            // เพื่อไม่ต้องไปดึงข้อมูลที่เพิ่งเพิม มาแสดง ให้เราใช้เฉพาะ id ข้อมูลใหม่ที่เพิ่งเพิม
-            // รวมกับชุดข้อมูลที่เพิ่งเพิ่ม เป็น ข้อมูลที่ส่งกลับออกมา
+            //show new and old data : not query again
             user = [{'id':results.insertId, ...user}]
             const result = {
                 "status": 200,
