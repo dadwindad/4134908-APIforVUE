@@ -1,11 +1,11 @@
 ```
 This project not have package.json , use for VUE project
 
-GET     /api/user/id
-        /api/users
-POST    /api/users
-PUT     /api/user/id
-DELETE  /api/user/id
+GET    ::   /api/user/id
+            /api/users
+POST   ::   /api/users
+PUT    ::   /api/user/id
+DELETE ::   /api/user/id
 ```
 
 ### 1. DATABASE is "testdb"
